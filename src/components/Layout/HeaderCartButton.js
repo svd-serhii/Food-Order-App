@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from "react";
 import CartIcon from "../Cart/CartIcon";
 import CartContext from "../../store/cart-context";
 import classes from "./HeaderCartButton.module.css";
-import { findAllByTestId } from "@testing-library/react";
 
 const HeaderCartButton = (props) => {
   const [btnIsHighLighted, setBtnIsHighLighted] = useState(false);
